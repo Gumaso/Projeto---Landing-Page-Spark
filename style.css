@@ -1,0 +1,134 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rubik+Mono+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.rubik-mono one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .orbitron{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-fundo1: ##CDCDCD;
+    --cor-fundo2: #F2EBE5;
+    
+}
+body{
+    background-color: var(--cor-fundo1);
+    height: 100vh;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    background-color: #F0E4D0;
+    width: 70%;
+    height: 80%;
+    margin:5% 15%;
+}
+#div_esquerda{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 50%;
+}
+#logomarca{
+    width: 50px;
+    height: 50px;
+}
+#div_direita{
+    width: 50%;
+    background-image: url("/assets/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#nav_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#div_esquerda_nav{
+    display: flex;
+    align-items: end;
+}
+
+#marca{
+    font-family: "Orbitron", monospace;
+    font-size: 28px;
+    margin-left: 10px;
+    font-weight: 600;
+
+}
+
+#div_direita_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+}
+#link_texto{
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+#img_registrar{
+    width: 100px;
+}
+
+
+
+
+#conteudo_meio{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#texto_central{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 56px;   
+}
+#div_botao{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+#texto_lado_botao{
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+}
+#link_botao{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+button{
+    background-color: black;
+    border: 2px solid black;
+    padding: 15px;
+    transition: 0.5s ease-in-out;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+#img_baixo{
+    width: 20%;
+}
+#img_div{
+    display: flex;
+    justify-content: end;
+}
